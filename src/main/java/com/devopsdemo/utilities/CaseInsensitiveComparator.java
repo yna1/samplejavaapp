@@ -13,7 +13,7 @@ public class CaseInsensitiveComparator extends GenericComparator {
 
         /*
          * This functiona call base GenericComparator(boolean sortAscending) class and set whether sorting is in ascending or descending
-         * sortAscending = true then ascending
+         * sortAscending = true then descending
          * sortAscending = false then descending
          */
         public CaseInsensitiveComparator(boolean sortAscending) {
